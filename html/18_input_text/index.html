@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Input Text</title>
+</head>
+
+<body>
+  <form>
+    <input type="text" required>
+    <input type="text" required oninvalid="this.setCustomValidity('Mohon Diisi')">
+    <input type="text" value="Input Text Nonaktif" disabled>
+    <input type="text" value="Input Text Tidak Bisa Diisi" readonly>
+    <input type="text" placeholder="Ini Yang Harus Diisi">
+    <input type="text" maxlength="7" placeholder="Input Maks 7 Karakter">
+    <input type="text" autofocus placeholder="Fokus Input Akan Ke Sini">
+    <input type="submit">
+  </form>
+</body>
+
+</html>
